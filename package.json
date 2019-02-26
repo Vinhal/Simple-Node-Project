@@ -1,0 +1,33 @@
+{
+  "name": "vuttr-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Vinhal/vuttr-backend.git",
+  "author": "Vinhal <lucvinhal@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^5.12.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.9",
+    "request": "^2.88.0",
+    "should": "^13.2.3"
+  },
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "mocha"
+  }
+}
